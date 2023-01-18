@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc254eaa-bbd1-4843-a1da-63a993273a2e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day02/SimpleGetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/apiTest/day02/SimpleGetRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithNegativeParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +37,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2KSrp6BIgtWDwlezyeiuzLUYsjr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
@@ -54,17 +50,53 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SimpleGetRequest.test4">
-    <configuration name="SimpleGetRequest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UserGetRequestWithPathMethod.testWithPathMethod">
+    <configuration name="UserGetRequestWithNegativeParam.Test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
+          <option name="PATTERN" value="apiTest.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithNegativeParam" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGetRequestWithNegativeParam.requestWithMap" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithNegativeParam" />
+      <option name="METHOD_NAME" value="requestWithMap" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGetRequestWithNegativeParam.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithNegativeParam" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -73,53 +105,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleGetRequest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserGetRequestWithPathMethod.testWithPathMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
+          <option name="PATTERN" value="apiTest.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithPathMethod" />
+      <option name="METHOD_NAME" value="testWithPathMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGetRequest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequest" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleGetRequest.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B2_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleGetRequest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B2_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,10 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SimpleGetRequest.test4" />
-        <item itemvalue="TestNG.SimpleGetRequest.test3" />
-        <item itemvalue="TestNG.SimpleGetRequest.test2" />
-        <item itemvalue="TestNG.SimpleGetRequest.test1" />
+        <item itemvalue="TestNG.UserGetRequestWithPathMethod.testWithPathMethod" />
+        <item itemvalue="TestNG.UserGetRequestWithNegativeParam.requestWithMap" />
+        <item itemvalue="TestNG.UserGetRequestWithNegativeParam.test1" />
+        <item itemvalue="TestNG.UserGetRequestWithNegativeParam.Test2" />
+        <item itemvalue="TestNG.UserGetRequest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +160,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673979005384</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1673981961994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673981961995</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
