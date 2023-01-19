@@ -72,6 +72,11 @@ public class UserGetRequestWithNegativeParam {
         Assert.assertEquals(response.contentType(),"application/json; charset=UTF-8");
         Assert.assertTrue(response.body().asString().contains("Thomas Eduson"));
         Assert.assertTrue(response.body().asString().contains("Cypress"));
+        Assert.assertTrue(response.headers().hasHeaderWithName("Date"));
+
+        response.prettyPrint();
+
+
     }
     @Test
     public void requestWithMap(){
