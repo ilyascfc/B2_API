@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc254eaa-bbd1-4843-a1da-63a993273a2e" name="Changes" comment="Add day 03 and update">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04/UserWith_JsonPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithNegativeParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithNegativeParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTest/day03/UserGetRequestWithNegativeParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTest/day03/UserGetRequestWithNegativeParam.class" afterDir="false" />
-    </list>
+    <list default="true" id="bc254eaa-bbd1-4843-a1da-63a993273a2e" name="Changes" comment="Add day 04 and update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674066339827</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add day 04 and update">
+      <created>1674149901357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674149901357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="Add day 03 and update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add day 03 and update" />
+    <MESSAGE value="Add day 04 and update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add day 04 and update" />
   </component>
 </project>
