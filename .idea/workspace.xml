@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc254eaa-bbd1-4843-a1da-63a993273a2e" name="Changes" comment="Add day 04 and update" />
+    <list default="true" id="bc254eaa-bbd1-4843-a1da-63a993273a2e" name="Changes" comment="Add day 04 and update">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05/HamcretsMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05/JsonJavaCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,18 +48,18 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.UserWith_JsonPath.task44">
-    <configuration name="UserGetRequestWithPathMethod.Task41" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JsonJavaCollection.UserToMap">
+    <configuration name="HamcretsMatcher.AllUserWithHamcrest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="PATTERN" value="apiTest.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithPathMethod" />
-      <option name="METHOD_NAME" value="Task41" />
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamcretsMatcher" />
+      <option name="METHOD_NAME" value="AllUserWithHamcrest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -63,17 +67,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetRequestWithPathMethod.testAllUsersWithPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HamcretsMatcher.OneUserWithHamcrest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="PATTERN" value="apiTest.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithPathMethod" />
-      <option name="METHOD_NAME" value="testAllUsersWithPath" />
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamcretsMatcher" />
+      <option name="METHOD_NAME" value="OneUserWithHamcrest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,17 +85,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserWith_JsonPath.task42" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HamcretsMatcher.OneUserWithHamcrest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="PATTERN" value="apiTest.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day04.UserWith_JsonPath" />
-      <option name="METHOD_NAME" value="task42" />
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamcretsMatcher" />
+      <option name="METHOD_NAME" value="OneUserWithHamcrest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonJavaCollection.UserToMap" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2_API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day05" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05.JsonJavaCollection" />
+      <option name="METHOD_NAME" value="UserToMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,31 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserWith_JsonPath.test11" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B2_API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day04.UserWith_JsonPath" />
-      <option name="METHOD_NAME" value="test11" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JsonJavaCollection.UserToMap" />
+        <item itemvalue="TestNG.HamcretsMatcher.AllUserWithHamcrest" />
+        <item itemvalue="TestNG.HamcretsMatcher.OneUserWithHamcrest1" />
+        <item itemvalue="TestNG.HamcretsMatcher.OneUserWithHamcrest" />
         <item itemvalue="TestNG.UserWith_JsonPath.task44" />
-        <item itemvalue="TestNG.UserWith_JsonPath.task42" />
-        <item itemvalue="TestNG.UserWith_JsonPath.test11" />
-        <item itemvalue="TestNG.UserGetRequestWithPathMethod.Task41" />
-        <item itemvalue="TestNG.UserGetRequestWithPathMethod.testAllUsersWithPath" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674149901357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add day 04 and update">
+      <created>1674657539884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674657539884</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
