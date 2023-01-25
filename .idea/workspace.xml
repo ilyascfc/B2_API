@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc254eaa-bbd1-4843-a1da-63a993273a2e" name="Changes" comment="Add day 04 and update">
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05/HamcretsMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05/JsonJavaCollection.java" afterDir="false" />
+    <list default="true" id="bc254eaa-bbd1-4843-a1da-63a993273a2e" name="Changes" comment="Add day 05 and update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03_PathMethod/UserGetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithNegativeParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03_PathMethod/UserGetRequestWithNegativeParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03_PathMethod/UserGetRequestWithPathMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day04/UserWith_JsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04_JsonPath/UserWith_JsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day05/HamcretsMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05_HamcrestMatcher/HamcretsMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day05/JsonJavaCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05_HamcrestMatcher/JsonJavaCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +57,12 @@
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day05.*" />
+          <option name="PATTERN" value="apiTest.day05_HamcrestMatcher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day05" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamcretsMatcher" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05_HamcrestMatcher.HamcretsMatcher" />
       <option name="METHOD_NAME" value="AllUserWithHamcrest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -71,12 +75,12 @@
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day05.*" />
+          <option name="PATTERN" value="apiTest.day05_HamcrestMatcher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day05" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamcretsMatcher" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05_HamcrestMatcher.HamcretsMatcher" />
       <option name="METHOD_NAME" value="OneUserWithHamcrest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -89,12 +93,12 @@
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day05.*" />
+          <option name="PATTERN" value="apiTest.day05_HamcrestMatcher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day05" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day05.HamcretsMatcher" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05_HamcrestMatcher.HamcretsMatcher" />
       <option name="METHOD_NAME" value="OneUserWithHamcrest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -107,12 +111,12 @@
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day05.*" />
+          <option name="PATTERN" value="apiTest.day05_HamcrestMatcher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day05" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day05.JsonJavaCollection" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05_HamcrestMatcher.JsonJavaCollection" />
       <option name="METHOD_NAME" value="UserToMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -125,12 +129,12 @@
       <module name="B2_API" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day04.*" />
+          <option name="PATTERN" value="apiTest.day04_JsonPath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day04" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day04.UserWith_JsonPath" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04_JsonPath.UserWith_JsonPath" />
       <option name="METHOD_NAME" value="task44" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -186,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674657539884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add day 05 and update">
+      <created>1674661329579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674661329579</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +215,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="Add day 03 and update" />
     <MESSAGE value="Add day 04 and update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add day 04 and update" />
+    <MESSAGE value="Add day 05 and update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add day 05 and update" />
   </component>
 </project>

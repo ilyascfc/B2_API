@@ -1,4 +1,4 @@
-package apiTest.day05;
+package apiTest.day05_HamcrestMatcher;
 
 import io.restassured.http.ContentType;
 import org.testng.annotations.BeforeClass;

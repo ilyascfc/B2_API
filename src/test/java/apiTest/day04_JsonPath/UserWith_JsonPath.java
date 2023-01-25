@@ -1,4 +1,4 @@
-package apiTest.day04;
+package apiTest.day04_JsonPath;
 
 
 import io.restassured.http.ContentType;
